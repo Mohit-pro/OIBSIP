@@ -5,7 +5,7 @@ public class Random {
     Scanner sc=new Scanner(System.in);
     int min=0;
     int max=100;
-    for(int i=5;i>0;i++)
+    for(int i=5;i>0;i--)
     {
     System.out.println("Choice left:"+(i-1));
     int a=(int)(Math.random()*(max-min+1)+min);
